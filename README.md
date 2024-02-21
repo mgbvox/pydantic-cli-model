@@ -1,6 +1,6 @@
 # Pydantic CLI Models
 
-Pydantic + Click == Perfection.
+Pydantic + Click == Perfection (with love to Rust's [clap](https://docs.rs/clap/latest/clap/) library)
 
 Reduce boilerplate by 2x (at least), turning this:
 
