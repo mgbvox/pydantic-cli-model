@@ -4,11 +4,10 @@ version = "0.1.4"
 description = "Parse cli arguments directly into Pydantic models with help from click!"
 authors = ["Matthew Billman <mgbvox@gmail.com>"]
 readme = "README.md"
-license = "GNU General Public License v3.0"
-
-[project.urls]
-Homepage = "https://github.com/mgbvox/pydantic-cli-model"
-Issues = "https://github.com/mgbvox/pydantic-cli-model/issues"
+license = "GPL-3.0-or-later"
+homepage = "https://github.com/mgbvox/pydantic-cli-model"
+repository = "https://github.com/mgbvox/pydantic-cli-model"
+issues = "https://github.com/mgbvox/pydantic-cli-model/issues"
 
 [tool.poetry.dependencies]
 python = "^3.12"
