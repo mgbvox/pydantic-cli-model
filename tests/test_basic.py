@@ -14,7 +14,7 @@ def invoke(file: Path, *args):
 
 @pytest.fixture
 def basic(example_root) -> Path:
-    yield example_root / "basic_usage.py"
+    return example_root / "basic_usage.py"
 
 
 def test_cli(basic):

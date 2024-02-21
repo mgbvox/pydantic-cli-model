@@ -4,7 +4,9 @@ import click
 from pydantic import BaseModel, ValidationError
 
 
-def indent(s: str, n: int, sep: str = "\t") -> str:
+def indent(s: str | None, n: int, sep: str = "\t") -> str:
+    if not s:
+        return ""
     return sep * n + s
 
 
