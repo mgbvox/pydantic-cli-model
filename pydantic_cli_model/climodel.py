@@ -15,9 +15,11 @@ def nl_join(*lines) -> str:
 
 
 class CLIModel(BaseModel):
+    """Woah so model."""
 
     @classmethod
     def cli(cls, fn: Callable):
+        """Turn a method into a CLI, validating arguments as kwargs to this model."""
         def wrapper(**kwargs):
             try:
                 validated_data = cls.model_validate(kwargs)

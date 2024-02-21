@@ -1,0 +1,10 @@
+site_name: Pydantic CLI Models
+
+plugins:
+  - include-markdown
+  - mkdocstrings:
+      default_handler: python
+
+nav:
+  - Home: index.md
+
