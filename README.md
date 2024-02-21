@@ -2,6 +2,10 @@
 
 Pydantic + Click == Perfection (with love to Rust's [clap](https://docs.rs/clap/latest/clap/) library)
 
+[Github](https://github.com/mgbvox/pydantic-cli-model.git)
+
+[Issues](https://github.com/mgbvox/pydantic-cli-model/issues)
+
 Reduce boilerplate by 2x (at least), turning this:
 
 ```python
