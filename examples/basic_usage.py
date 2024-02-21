@@ -20,11 +20,12 @@ class Person(CLIModel):
     @classmethod
     def validate_height(cls, value: float):
         if value < 0:
-            raise ValueError(f"You must obey the laws of physics, alas.")
+            raise ValueError("You must obey the laws of physics, alas.")
         return value
 
 
-database:dict[str, Person] = {}
+database: dict[str, Person] = {}
+
 
 # Your main entrypoint is fed a validated Person model, which you can treat like any other pydantic model!
 @Person.cli

@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from examples.basic_usage import Person, main
+from examples.basic_usage import Person
 
 
 def invoke(file: Path, *args):

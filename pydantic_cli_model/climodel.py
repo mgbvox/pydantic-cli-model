@@ -1,7 +1,7 @@
 from typing import Callable
 
 import click
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, ValidationError
 
 
 def indent(s: str, n: int, sep: str = "\t") -> str:
