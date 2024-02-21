@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "pydantic-cli-model"
-version = "0.1.0"
+version = "0.1.2"
 description = "Parse cli arguments directly into Pydantic models with help from click!"
 authors = ["Matthew Billman <mgbvox@gmail.com>"]
 readme = "README.md"
+license = "GNU General Public License v3.0"
 
 [project.urls]
 Homepage = "https://github.com/mgbvox/pydantic-cli-model"
